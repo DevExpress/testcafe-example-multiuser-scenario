@@ -43,7 +43,9 @@ class User {
     }
 }
 
-const scenarios = new Map();
+const scenarios = global.scenarios || new Map();
+
+global.scenarios = scenarios;
 
 class Scenario {
     constructor (description) {
