@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.22.1",
+    "express": "^5.2.1",
     "testcafe": "^3.6.2"
   }
 }
